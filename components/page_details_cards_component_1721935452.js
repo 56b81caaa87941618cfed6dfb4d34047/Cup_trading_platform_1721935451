@@ -7,16 +7,16 @@ Vue.component("page_details_cards_component_1721935452", {
         <h2 id="details-title" class="text-lg font-semibold mb-5 pl-4">Details</h2>
         <ul id="details-list" class="grid gap-4 min-[480px]:grid-cols-3 text-sm">
             <li id="project-length" class="px-5 py-4 rounded-lg" :class="detailsListStyle">
-                <div class="font-medium" :class="detailsComponentTextStyle">PAGE_DETAIL_1_KEY</div>
-                <div :class="detailsComponentTextSecondaryStyle">PAGE_DETAIL_1_VALUE</div>
+                <div class="font-medium" :class="detailsComponentTextStyle">Buy and Sell Collectibles</div>
+                <div :class="detailsComponentTextSecondaryStyle">Find rare and unique paper cups from around the world to add to your collection or sell extras you have.</div>
             </li>
             <li id="start-date" class="px-5 py-4 rounded-lg" :class="detailsListStyle">
-                <div class="font-medium" id="start-date-des-1" :class="detailsComponentTextStyle">PAGE_DETAIL_2_KEY</div>
-                <time :class="detailsComponentTextSecondaryStyle" id="start-time-des-1">PAGE_DETAIL_2_VALUE</time>
+                <div class="font-medium" id="start-date-des-1" :class="detailsComponentTextStyle">Connect with Other Enthusiasts</div>
+                <time :class="detailsComponentTextSecondaryStyle" id="start-time-des-1">Join a vibrant community of paper cup collectors to trade, discuss, and share your passion.</time>
             </li>
             <li id="end-date" class="px-5 py-4 rounded-lg" :class="detailsListStyle">
-                <div class="font-medium" id="end-date-des-1" :class="detailsComponentTextStyle">PAGE_DETAIL_3_KEY</div>
-                <time :class="detailsComponentTextSecondaryStyle" id="end-time-des-1">PAGE_DETAIL_3_VALUE</time>
+                <div class="font-medium" id="end-date-des-1" :class="detailsComponentTextStyle">Easy and Secure Transactions</div>
+                <time :class="detailsComponentTextSecondaryStyle" id="end-time-des-1">Our platform ensures safe and reliable trading with escrow protection and verified sellers.</time>
             </li>
         </ul>
     </section>

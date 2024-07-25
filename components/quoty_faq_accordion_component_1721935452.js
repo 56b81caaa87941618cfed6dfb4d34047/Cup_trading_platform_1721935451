@@ -6,7 +6,7 @@
 Vue.component("quoty_faq_accordion_component_1721935452", {
     template: `
     <section class="py-8 bg-white pl-4">
-        <h2 class="text-lg font-semibold mb-5">PLACEHOLDER_FAQ_TITLE</h2>
+        <h2 class="text-lg font-semibold mb-5">Frequently Asked Questions about PaperCup Trading</h2>
         <!-- Accordion -->
         <div class="space-y-3">
             <!-- Accordion item -->
@@ -38,10 +38,10 @@ Vue.component("quoty_faq_accordion_component_1721935452", {
             svgFillStyle: "fill-slate-400 dark:fill-slate-500",
             termsTextStyle: "text-slate-500 dark:text-slate-400",
             terms: [
-                { title: "ACCORDION_QUESTION_1", description: "ACCORDION_ANSWER_1", expanded: false },
-                { title: "ACCORDION_QUESTION_2", description: "ACCORDION_ANSWER_2", expanded: false },
-                { title: "ACCORDION_QUESTION_3", description: "ACCORDION_ANSWER_3", expanded: false },
-                { title: "ACCORDION_QUESTION_4", description: "ACCORDION_ANSWER_4", expanded: false },
+                { title: "What is PaperCup Trading?", description: "PaperCup Trading is an online marketplace where people can buy, sell and trade used paper cups. Whether you have a collection you want to sell or are looking for rare or unique cups, our platform connects buyers and sellers.", expanded: false },
+                { title: "How does the trading process work?", description: "Sellers can list their paper cups for sale by providing detailed descriptions and photos. Buyers can browse listings, make offers, and complete purchases securely. Once a sale is made, the seller ships the cup to the buyer.", expanded: false },
+                { title: "What payment methods are accepted?", description: "We accept all major credit cards, PayPal, and cryptocurrency payments for maximum convenience and security for buyers and sellers.", expanded: false },
+                { title: "Are there any fees for using PaperCup Trading?", description: "We charge a small commission fee on completed sales to cover our operating costs. The fee rate is clearly displayed during the listing and checkout process.", expanded: false },
             ],
         };
     },
